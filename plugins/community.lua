@@ -13,4 +13,5 @@ return {
       transparent_background = true,
     },
   },
+  { import = "astrocommunity.pack.typescript" },
 }
