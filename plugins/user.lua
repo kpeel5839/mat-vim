@@ -9,4 +9,24 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "terryma/vim-multiple-cursors",
+    opt = {},
+    event = "User AstroFile",
+  },
+  {
+    "tpope/vim-surround",
+    opt = {},
+    event = "User AstroFile",
+  },
+  {
+    "VonHeikemen/fine-cmdline.nvim",
+    requires = {
+      "MunifTanjim/nui.nvim",
+    },
+    opt = {
+      vim.api.nvim_set_keymap("n", ":", "<cmd>FineCmdline<CR>", { noremap = true }),
+    },
+    event = "User AstroFile",
+  },
 }
