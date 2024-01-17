@@ -14,5 +14,6 @@ return {
     },
   },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.markdown" },
 }
