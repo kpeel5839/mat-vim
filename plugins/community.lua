@@ -17,4 +17,5 @@ return {
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.note-taking.obsidian-nvim" },
 }
